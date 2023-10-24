@@ -10,7 +10,7 @@ Parts used:
 2. 7 connecting wires
 3. MQ-135 gas sensor
 4. ESP8266
-5. SH1106 128x64 OLED display, **not to be confused with similarly looking SSD1306 by Adafruit!**
+5. SH1106 128x64 OLED display, **not to be confused with the similarly looking SSD1306 by Adafruit!**
 
 Because the SH1106 and SSD1306 are not the same, they require different libraries to work. The library to use for the SH1106 is U8g2
 
