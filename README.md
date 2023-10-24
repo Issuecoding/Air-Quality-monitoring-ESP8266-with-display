@@ -17,7 +17,7 @@ Because the SH1106 and SSD1306 are not the same, they require different librarie
 ![image](https://github.com/Issuecoding/IoT-Air-Quality-monitoring-with-display/assets/148871637/7e709994-95c0-4413-9765-1d019fd8b5b6)
 
 
-##Additional things to know
+## Additional things to know
 This code allows you to upload everything to Thingspeak so you can monitor it remotely too!
 
 ```
