@@ -20,6 +20,8 @@ Because the SH1106 and SSD1306 are not the same, they require different librarie
 ## Additional things to know
 This code allows you to upload everything to Thingspeak so you can monitor it remotely too!
 
+## The code
+
 ```
 #include <ESP8266WiFi.h>
 #include <Arduino.h>
