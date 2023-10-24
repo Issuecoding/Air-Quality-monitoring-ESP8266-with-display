@@ -7,7 +7,7 @@ The original website: https://how2electronics.com/iot-air-quality-index-monitori
 
 Parts used:
 1. Breadboard
-2. 7 cables
+2. 7 connecting wires
 3. MQ-135 gas sensor
 4. ESP8266
 5. SH1106 128x64 OLED display, not to be confused with similarly looking SSD1306 by Adafruit!
