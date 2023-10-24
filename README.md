@@ -16,6 +16,8 @@ Because the SH1106 and SSD1306 are not the same, they require different librarie
 
 ![image](https://github.com/Issuecoding/IoT-Air-Quality-monitoring-with-display/assets/148871637/7e709994-95c0-4413-9765-1d019fd8b5b6)
 
+How did I figure out I was not using the correct library? Thanks to [this comment here](https://www.reddit.com/r/arduino/comments/u9owsr/i_set_up_my_128x64_oled_to_draw_a_rectangle_and/i5t95m0/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) on Reddit.
+
 
 ## Additional things to know
 This code allows you to upload everything to Thingspeak so you can monitor it remotely too!
