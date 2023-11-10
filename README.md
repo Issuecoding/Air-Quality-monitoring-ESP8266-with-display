@@ -144,8 +144,6 @@ Displaying the air quality values on the display
   }
     client.stop();
     Serial.println("Waiting...");
-
-```
  
     delay(2000);      // thingspeak needs minimum 15 sec delay between updates.
 }
