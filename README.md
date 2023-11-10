@@ -40,7 +40,9 @@ U8g2lib is the library we'll use for the SH1106 monitor
 
 U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 ```
+
 Setting up the wifi connection
+
 ```
 String apiKey = "14K8UL2QEK8BTHN6"; // Enter your Write API key from ThingSpeak
 const char *ssid = "Potato";     // replace with your wifi ssid and wpa2 key
@@ -62,9 +64,9 @@ void setup()
   delay(10);
  
   u8g2.setFont(u8g2_font_ncenB08_tr);  // choose a suitable font
-  u8g2.setCursor(1,10);
+  u8g2.setCursor(1,10);       // where it will start printing from on the display
   u8g2.print("Connecting to ");
-  u8g2.setCursor(1,22);
+  u8g2.setCursor(1,22);       
   u8g2.print(ssid);
   u8g2.sendBuffer();          // transfer internal memory to the display
   delay(1000); 
@@ -87,7 +89,11 @@ void setup()
 
 }
  
- 
+```
+
+Displaying the air quality values on the display
+
+``` 
   void loop()
   {
     MQ135 gasSensor = MQ135(A0);
