@@ -22,6 +22,11 @@ How did I figure out I was not using the correct library? Thanks to [this commen
 ## Additional things to know
 This code allows you to upload everything to Thingspeak so you can monitor it remotely too!
 
+## Setting up Thingspeak
+Just follow the instructions in the screenshot below
+![image](https://github.com/Issuecoding/Air-Quality-monitoring-ESP8266-with-display/assets/148871637/f4641bec-b747-4623-b7a4-a9e37ca5e524)
+
+
 ## The code
 U8g2lib is the library we'll use for the SH1106 monitor
 
