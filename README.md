@@ -40,9 +40,7 @@ U8g2lib is the library we'll use for the SH1106 monitor
 
 U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 ```
-
 Setting up the wifi connection
-
 ```
 String apiKey = "14K8UL2QEK8BTHN6"; // Enter your Write API key from ThingSpeak
 const char *ssid = "Potato";     // replace with your wifi ssid and wpa2 key
@@ -140,6 +138,8 @@ void setup()
   }
     client.stop();
     Serial.println("Waiting...");
+
+```
  
     delay(2000);      // thingspeak needs minimum 15 sec delay between updates.
 }
