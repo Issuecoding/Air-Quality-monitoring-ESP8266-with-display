@@ -23,15 +23,13 @@ How did I figure out I was not using the correct library? Thanks to [this commen
 This code allows you to upload everything to Thingspeak so you can monitor it remotely too!
 
 ## The code
+U8g2lib is the library we'll use for the SH1106 monitor
 
 ```
 #include <ESP8266WiFi.h>
 #include <Arduino.h>
 #include <U8g2lib.h>
 #include "MQ135.h"
-```
-U8g2lib is the library we'll use for the SH1106 monitor
-```
 
 #ifdef U8X8_HAVE_HW_SPI
 #include <SPI.h>
@@ -41,8 +39,11 @@ U8g2lib is the library we'll use for the SH1106 monitor
 #endif
 
 U8G2_SH1106_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
+```
 
- 
+Setting up the wifi connection
+
+```
 String apiKey = "14K8UL2QEK8BTHN6"; // Enter your Write API key from ThingSpeak
 const char *ssid = "Potato";     // replace with your wifi ssid and wpa2 key
 const char *pass = "123456789";  // replace with your wifi password
